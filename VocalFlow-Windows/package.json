@@ -1,0 +1,22 @@
+{
+  "name": "vocalflow-windows",
+  "version": "1.0.0",
+  "description": "Windows port of VocalFlow: hold-to-record dictation with Deepgram and Groq",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "zip": "powershell.exe -ExecutionPolicy Bypass -File build_zip.ps1"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^3.0.0",
+    "axios": "^1.6.8",
+    "clipboardy": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.3.2",
+    "node-record-lpcm16": "^1.0.1",
+    "uiohook-napi": "^1.5.2",
+    "@nut-tree-fork/nut-js": "^3.1.2"
+  },
+  "author": "",
+  "license": "MIT"
+}
